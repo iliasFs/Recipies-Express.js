@@ -6,7 +6,9 @@
   "author": "ilias",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2"
   },
   "devDependencies": {
@@ -17,10 +19,3 @@
     "dev": "nodemon src/index.js"
   }
 }
-    
-
-git init 
-
-git add .
-git comit -m "fdsfs"
-git push
